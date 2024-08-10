@@ -49,6 +49,7 @@
 #anchor {
 
     color:deepskyblue;
+    flex-direction: row;
 }
 
 .container{
