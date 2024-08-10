@@ -33,7 +33,7 @@
 .body {
     
     display: block;
-    background-image: url(/images/Augusta.jpg);
+    background-image: url("images/Augusta.jpg");
     height: auto;
     background-position: center;
     background-size: cover;
