@@ -18,7 +18,7 @@
 
 }
 
-#image {
+.image {
     display: block;
     border: 15px solid;
     border-radius: 40px;
@@ -32,7 +32,8 @@
 
 .body {
     
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-image: url("images/Augusta.jpg");
     height: auto;
     background-position: center;
@@ -46,9 +47,9 @@
     padding: 10px;
 }
 
-#anchor {
-
-    color:deepskyblue;
+.anchor {
+    display: flex;
+    color:rgb(3, 108, 20);
     flex-direction: row;
 }
 
